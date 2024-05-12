@@ -9,4 +9,4 @@ statistics add @a[tag=ingame,tag=Winner] broken minecraft:bedrock 1
 scoreboard players add @a[tag=ingame,tag=Winner] crum.wins 1
 
 # Reset winstreak for everyone else
-scoreboard players reset @a[tag=ingame,tag=!Winner]
+scoreboard players set @a[tag=ingame,tag=!Winner] crum.winstreak 0
